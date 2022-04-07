@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,kHAAkH;AAElH,cAAc;AAWd,cAAc;AAWd,cAAc;AAWd,mBAAmB",
+    "sources": [
+        "color-palette-jazzberryNeon.scss"
+    ],
+    "names": [],
+    "file": "color-palette-jazzberryNeon.css"
+}

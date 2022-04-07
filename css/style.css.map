@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,kHAAkH;AAElH,cAAc;AAWd,cAAc;AAWd,cAAc;AAWd,mBAAmB;ADjCnB,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,KAAK;EACb,gBAAgB,ECuCG,0HAA0H;CDtChJ",
+    "sources": [
+        "style.scss",
+        "color-palette-jazzberryNeon.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
