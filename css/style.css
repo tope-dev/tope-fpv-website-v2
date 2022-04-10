@@ -3,8 +3,14 @@
 /* SCSS HSL */
 /* SCSS RGB */
 /* SCSS Gradient */
+/* Coolors Exported Palette - https://coolors.co/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
+/* CSS HEX */
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
 body {
   height: 100vh;
-  background-image: linear-gradient(315deg, #b7094cff, #a01a58ff, #892b64ff, #723c70ff, #5c4d7dff, #455e89ff, #2e6f95ff, #1780a1ff, #0091adff);
+  background-image: linear-gradient(315deg, #001219ff, #005f73ff, #0a9396ff, #94d2bdff, #e9d8a6ff, #ee9b00ff, #ca6702ff, #bb3e03ff, #ae2012ff, #9b2226ff);
 }
 /*# sourceMappingURL=style.css.map */
