@@ -1,6 +1,6 @@
 @import "color-palette-jazzberryNeon", "color-palette-80s",
   "color-palette-custom";
-
+/* Using SASS */
 body {
   display: flex;
   flex-direction: column;
@@ -16,26 +16,29 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-template-areas:
-  "a b b c"
-  "d d e e";
+    "a b b c"
+    "d d e e";
 
   .card {
-    background-color: $gamboge;
-    border: black solid 5px;
   }
   .about {
     grid-area: a;
+    background-color: $gamboge;
   }
   .projects {
     grid-area: b;
+    background-color: $amaranth_purple;
   }
   .contact {
     grid-area: c;
+    background-color: $viridian-green;
   }
   .services {
     grid-area: d;
+    background-color: $rich-black-fogra-29;
   }
   .how-it-works {
     grid-area: e;
+    background-color: $rust;
   }
 }

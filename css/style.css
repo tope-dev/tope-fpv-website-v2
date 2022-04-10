@@ -1,14 +1,6 @@
 /* Coolors Exported Palette - https://coolors.co/b7094c-a01a58-892b64-723c70-5c4d7d-455e89-2e6f95-1780a1-0091ad */
-/* SCSS HEX */
-/* SCSS HSL */
-/* SCSS RGB */
-/* SCSS Gradient */
 /* Coolors Exported Palette - https://coolors.co/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
-/* CSS HEX */
-/* SCSS HEX */
-/* SCSS HSL */
-/* SCSS RGB */
-/* SCSS Gradient */
+/* Using SASS */
 body {
   display: flex;
   flex-direction: column;
@@ -25,22 +17,23 @@ body {
   grid-row-gap: 0px;
   grid-template-areas: "a b b c" "d d e e";
 }
-.hero-container .card {
-  background-color: rgb(238, 155, 0);
-  border: black solid 5px;
-}
 .hero-container .about {
   grid-area: a;
+  background-color: #ee9b00;
 }
 .hero-container .projects {
   grid-area: b;
+  background-color: #b7094c;
 }
 .hero-container .contact {
   grid-area: c;
+  background-color: #0a9396;
 }
 .hero-container .services {
   grid-area: d;
+  background-color: #001219;
 }
 .hero-container .how-it-works {
   grid-area: e;
+  background-color: #bb3e03;
 }/*# sourceMappingURL=style.css.map */
