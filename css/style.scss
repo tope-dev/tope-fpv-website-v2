@@ -1,7 +1,41 @@
-@import 'color-palette-jazzberryNeon', 'color-palette-80s';
+@import "color-palette-jazzberryNeon", "color-palette-80s",
+  "color-palette-custom";
 
 body {
-    height: 100vh;
-    background-image: $gradient-bottom-left;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
+.hero-container {
+  background-color: $gray;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+  "a b b c"
+  "d d e e";
+
+  .card {
+    background-color: $gamboge;
+    border: black solid 5px;
+  }
+  .about {
+    grid-area: a;
+  }
+  .projects {
+    grid-area: b;
+  }
+  .contact {
+    grid-area: c;
+  }
+  .services {
+    grid-area: d;
+  }
+  .how-it-works {
+    grid-area: e;
+  }
+}

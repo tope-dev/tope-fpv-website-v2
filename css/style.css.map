@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,kHAAkH;AAElH,cAAc;AAWd,cAAc;AAWd,cAAc;AAWd,mBAAmB;ACnCnB,yHAAyH;AAEzH,aAAa;AAwBb,cAAc;AAYd,cAAc;AAYd,cAAc;AAYd,mBAAmB;AF5DnB,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,KAAK;EACb,gBAAgB,EEkEG,qIAAqI;CFjE3J",
-    "sources": [
-        "style.scss",
-        "color-palette-jazzberryNeon.scss",
-        "color-palette-80s.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["color-palette-jazzberryNeon.scss","color-palette-80s.scss","style.scss","style.css","color-palette-custom.scss"],"names":[],"mappings":"AAAA,iHAAA;AAEA,aAAA;AAWA,aAAA;AAWA,aAAA;AAWA,kBAAA;ACnCA,wHAAA;AAEA,YAAA;AAwBA,aAAA;AAYA,aAAA;AAYA,aAAA;AAYA,kBAAA;AC3DA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;ACSF;;ADNA;EACE,yBEPK;EFQL,aAAA;EACA,aAAA;EACA,qCAAA;EACA,kCAAA;EACA,oBAAA;EACA,iBAAA;EACA,wCACA;ACQF;ADLE;EACE,kCDkCM;ECjCN,uBAAA;ACOJ;ADLE;EACE,YAAA;ACOJ;ADLE;EACE,YAAA;ACOJ;ADLE;EACE,YAAA;ACOJ;ADLE;EACE,YAAA;ACOJ;ADLE;EACE,YAAA;ACOJ","file":"style.css"}
