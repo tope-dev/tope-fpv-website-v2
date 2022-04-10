@@ -10,22 +10,6 @@ html {
   // never set fixed heights
   // use min-heights if you need to
 }
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-
-header {
-  min-height: 8vh;
-}
-
-footer {
-  min-height: 15vh;
-  background-color: $gray;
-}
 
 .hero-container {
   background-color: $gray;
