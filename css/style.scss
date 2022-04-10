@@ -2,6 +2,7 @@
   "color-palette-custom";
 /* Using SASS */
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -20,6 +21,7 @@ body {
     "d d e e";
 
   .card {
+    background-color: #fff;
   }
   .about {
     grid-area: a;

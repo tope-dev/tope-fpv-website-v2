@@ -2,6 +2,7 @@
 /* Coolors Exported Palette - https://coolors.co/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
 /* Using SASS */
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -16,6 +17,9 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-template-areas: "a b b c" "d d e e";
+}
+.hero-container .card {
+  background-color: #fff;
 }
 .hero-container .about {
   grid-area: a;
