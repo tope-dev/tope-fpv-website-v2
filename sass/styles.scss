@@ -1,9 +1,29 @@
-@use 'abstracts';
-@use 'base';
-@use 'components';
-@use 'layouts';
-// @use 'themes';
-// @use 'vendors';
+/* Table of contents
+------------------------------
+-- base imports
+-- components imports
+-- layout imports
+-- page imports
+-- vendors imports
+**/
 
+// base imports
+@use './base/base';
+@use './base/resets';
+@use './base/typography';
 
+// components imports
+@use './components/buttons';
 
+// layout imports
+@use './layouts/navbar';
+@use './layouts/hero-container';
+@use './layouts/footer';
+
+// pages imports
+@use './pages/home';
+
+// themes imports
+
+// vendors imports
+@use './vendors/bootstrap';
