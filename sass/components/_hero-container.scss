@@ -1,15 +1,4 @@
-@import "color-palette-jazzberryNeon", "color-palette-80s",
-  "color-palette-custom";
-
-html {
-  font-size: 62.5%; // font-size: 1rem = 10px
-  // everywhere use rem
-  // on button use em
-  // for width use % or min-width if want px or other units
-  // for margin most of the time it's rem
-  // never set fixed heights
-  // use min-heights if you need to
-}
+@use "../abstracts" as *;
 
 .hero-container {
   background-color: $gray;
@@ -30,6 +19,9 @@ html {
   .about {
     grid-area: a;
     background-color: $gamboge;
+    a {
+    background-color: #fff;
+    }
   }
   .projects {
     grid-area: b;
