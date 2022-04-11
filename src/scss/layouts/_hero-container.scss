@@ -1,0 +1,71 @@
+@use "../abstracts" as *;
+
+.hero-container {
+  background-color: $gray;
+  min-height: 92vh;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: 1fr 0.9fr 1.1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "a a c c"
+    "b b b b"
+    "d d e e";
+
+  .card {
+    background-color: #fff;
+  }
+  .about {
+    grid-area: a;
+    background-color: $gamboge;
+  }
+  .projects {
+    grid-area: b;
+    background-color: $amaranth_purple;
+  }
+  .contact {
+    grid-area: c;
+    background-color: $viridian-green;
+  }
+  .services {
+    grid-area: d;
+    background-color: $rich-black-fogra-29;
+  }
+  .how-it-works {
+    grid-area: e;
+    background-color: $rust;
+  }
+}
+
+// Tablet Size
+@media (min-width: 768px) {
+  header {
+    background-color: purple;
+  }
+  .hero-container {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 1fr 0.9fr 1.1fr;
+  }
+}
+
+// Desktop Size
+@media (min-width: 1000px) {
+  header {
+    background-color: yellow;
+  }
+  .hero-container {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "a b b c"
+      "d d e e";
+  }
+}
+
+// Large 2560 Desktop Size
+@media (min-width: 2560px) {
+  header {
+    background-color: greenyellow;
+  }
+}

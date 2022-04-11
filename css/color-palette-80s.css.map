@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,yHAAyH;AAEzH,aAAa;AAwBb,cAAc;AAYd,cAAc;AAYd,cAAc;AAYd,mBAAmB",
-    "sources": [
-        "color-palette-80s.scss"
-    ],
-    "names": [],
-    "file": "color-palette-80s.css"
-}
