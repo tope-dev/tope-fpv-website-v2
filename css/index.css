@@ -1,26 +1,6 @@
 /* Using SASS */
-/* Coolors Exported Palette - https://coolors.co/b7094c-a01a58-892b64-723c70-5c4d7d-455e89-2e6f95-1780a1-0091ad */
-/* Coolors Exported Palette - https://coolors.co/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
-/* Collor palettes */
 html {
   font-size: 62.5%;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-
-header {
-  min-height: 8vh;
-}
-
-footer {
-  min-height: 15vh;
-  background-color: #707070;
 }
 
 .hero-container {
@@ -83,7 +63,6 @@ footer {
     background-color: greenyellow;
   }
 }
-/*Container stylings */
 html {
   font-size: 62.5%;
 }
