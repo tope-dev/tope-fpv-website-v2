@@ -12,30 +12,6 @@
     "a a c c"
     "b b b b"
     "d d e e";
-
-  .card {
-    background-color: #fff;
-  }
-  .card--about {
-    grid-area: a;
-    background-color: $gamboge;
-  }
-  .card--projects {
-    grid-area: b;
-    background-color: $amaranth_purple;
-  }
-  .card--contact {
-    grid-area: c;
-    background-color: $viridian-green;
-  }
-  .card--services {
-    grid-area: d;
-    background-color: $rich-black-fogra-29;
-  }
-  .card--how-it-works {
-    grid-area: e;
-    background-color: $rust;
-  }
 }
 
 // Tablet Size
