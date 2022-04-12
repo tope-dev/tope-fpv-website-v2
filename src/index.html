@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="scss/styles.scss">
+    <link rel="stylesheet" href="scss/styles.scss" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,10 +14,23 @@
     <body>
       <div class="hero-container">
         <div class="card card--about">
-          <h1>ABOUT</h1>
-          <p>Experience in cinematic FPV and Commercial drone film production over 5 years</p>
-          <a href="#footer"><button>SEE MORE</button></a>
+          <div class="card__content">
+
+            <div class="card__front">
+            <h1 class="card__title--front"></h1>
+            </div>
+
+            <div class="card__back">
+              <h1 class="card__title--back">ABOUT</h1>
+              <p class="card__body">
+                Experience in cinematic FPV and Commercial drone film production
+                over 5 years
+              </p>
+              <a href="#footer"><button class="card_button">SEE MORE</button></a>
+            </div>
+          </div>
         </div>
+
         <div class="card card--projects"></div>
         <div class="card card--contact"></div>
         <div class="card card--services"></div>
