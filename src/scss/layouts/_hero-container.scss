@@ -16,23 +16,23 @@
   .card {
     background-color: #fff;
   }
-  .card__about {
+  .card--about {
     grid-area: a;
     background-color: $gamboge;
   }
-  .card__projects {
+  .card--projects {
     grid-area: b;
     background-color: $amaranth_purple;
   }
-  .card__contact {
+  .card--contact {
     grid-area: c;
     background-color: $viridian-green;
   }
-  .card__services {
+  .card--services {
     grid-area: d;
     background-color: $rich-black-fogra-29;
   }
-  .card__how-it-works {
+  .card--how-it-works {
     grid-area: e;
     background-color: $rust;
   }
