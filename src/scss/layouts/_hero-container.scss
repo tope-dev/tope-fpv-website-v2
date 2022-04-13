@@ -6,8 +6,6 @@
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: 1fr 0.9fr 1.1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   grid-template-areas:
     "a a c c"
     "b b b b"
@@ -17,7 +15,7 @@
 // Tablet Size
 @media (min-width: 768px) {
   html {
-    font-size: 100%;
+    font-size: 70%;
   }
   header {
     background-color: purple;

@@ -1,6 +1,7 @@
 @use "../abstracts" as *;
 
 .card {
+  margin: -0.1px; //fixes the gaps between cards
   &--about {
     grid-area: a;
     &__front {
@@ -21,19 +22,75 @@
   }
   &--projects {
     grid-area: b;
-    // background-color: $amaranth_purple;
+    &__front {
+      background-color: $amaranth_purple;
+    }
+    &__back {
+      background-color: $alloy-orange;
+    }
+    &__title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1.8rem;
+    }
+    &__body {
+      font-size: 1.1rem;
+      margin-bottom: 3.7rem;
+    }
   }
   &--contact {
     grid-area: c;
-    // background-color: $viridian-green;
+    &__front {
+      background-color: $viridian-green;
+    }
+    &__back {
+      background-color: $alloy-orange;
+    }
+    &__title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1.8rem;
+    }
+    &__body {
+      font-size: 1.1rem;
+      margin-bottom: 3.7rem;
+    }
   }
   &--services {
     grid-area: d;
-    // background-color: $rich-black-fogra-29;
+    &__front {
+      background-color: $rich-black-fogra-29;
+    }
+    &__back {
+      background-color: $alloy-orange;
+    }
+    &__title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1.8rem;
+    }
+    &__body {
+      font-size: 1.1rem;
+      margin-bottom: 3.7rem;
+    }
   }
   &--how {
     grid-area: e;
-    // background-color: $rust;
+    &__front {
+      background-color: $rust;
+    }
+    &__back {
+      background-color: $alloy-orange;
+    }
+    &__title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1.8rem;
+    }
+    &__body {
+      font-size: 1.1rem;
+      margin-bottom: 3.7rem;
+    }
   }
   &:hover &__content {
     transform: rotateY(0.5turn);
