@@ -3,7 +3,6 @@
 .card {
   &--about {
     grid-area: a;
-    background-color: $gamboge;
   }
   &--projects {
     grid-area: b;
@@ -21,30 +20,49 @@
     grid-area: e;
     background-color: $rust;
   }
+  &:hover &__content {
+    transform: rotateY(.5turn);
+  }
   &__content {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    color: white;
+  }
+  &__front,
+  &__back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 0.5rem;
-    position: relative;
-    padding: 1em 0.5em;
-    transition: transform 1s;
-    // background: pink;
-    transform-style: preserve-3d;
   }
   &__front {
+    background-color: $gamboge;
   }
   &__back {
+    transform: rotateY(.5turn);
+    background-color: $alloy-orange;
   }
   &__title {
     &--front {
+      transform: $level-three;
     }
     &--back {
+      transform: $level-two;
+      
     }
   }
   &__body {
+    transform: $level-one;
   }
   &__button {
     &--projects {
