@@ -16,6 +16,9 @@
 
 // Tablet Size
 @media (min-width: 768px) {
+  html {
+    font-size: 100%;
+  }
   header {
     background-color: purple;
   }
@@ -27,6 +30,9 @@
 
 // Desktop Size
 @media (min-width: 1000px) {
+  html {
+    font-size: 85%;
+  }
   header {
     background-color: yellow;
   }

@@ -6,19 +6,19 @@
   }
   &--projects {
     grid-area: b;
-    background-color: $amaranth_purple;
+    // background-color: $amaranth_purple;
   }
   &--contact {
     grid-area: c;
-    background-color: $viridian-green;
+    // background-color: $viridian-green;
   }
   &--services {
     grid-area: d;
-    background-color: $rich-black-fogra-29;
+    // background-color: $rich-black-fogra-29;
   }
-  &--how-it-works {
+  &--how {
     grid-area: e;
-    background-color: $rust;
+    // background-color: $rust;
   }
   &:hover &__content {
     transform: rotateY(.5turn);
@@ -59,19 +59,19 @@
       font-size: 2.5rem;
     }
     &--back {
-      transform: $level-three;
+      transform: $level-four;
       font-size: 1.15rem;
       font-weight: 600;
       margin-bottom: 1.8rem;
     }
   }
   &__body {
-    transform: $level-two;
+    transform: $level-three;
     font-size: 1.1rem;
     margin-bottom: 3.7rem;
   }
   &__button {
-    transform: $level-three;
+    transform: $level-two;
     &--projects {
     }
   }
