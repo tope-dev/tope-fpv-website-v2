@@ -79,16 +79,16 @@ h1 {
 }
 
 h2 {
-  font-size: 2.75rem;
+  font-size: 2.7rem;
   line-height: 1.25;
 }
 
 h3 {
-  font-size: 2.25rem;
+  font-size: 2.2rem;
 }
 
 h4 {
-  font-size: 1.65rem;
+  font-size: 1.6rem;
 }
 
 p {
@@ -97,8 +97,153 @@ p {
 
 button {
   background-color: #fff;
+  border: transparent solid 0px;
+  border-radius: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5em 1.2em;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s;
+}
+button:hover {
+  background-color: #001219;
+  color: #fff;
+  transform: scale(1.1);
 }
 
+.card {
+  margin: -0.1px;
+}
+.card--about {
+  grid-area: a;
+}
+.card--about__front {
+  background-color: #ee9b00;
+}
+.card--about__back {
+  background-color: #ca6702;
+}
+.card--about__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--about__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card--projects {
+  grid-area: b;
+}
+.card--projects__front {
+  background-color: #b7094c;
+}
+.card--projects__back {
+  background-color: #ca6702;
+}
+.card--projects__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--projects__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card--contact {
+  grid-area: c;
+}
+.card--contact__front {
+  background-color: #0a9396;
+}
+.card--contact__back {
+  background-color: #ca6702;
+}
+.card--contact__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--contact__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card--services {
+  grid-area: d;
+}
+.card--services__front {
+  background-color: #001219;
+}
+.card--services__back {
+  background-color: #ca6702;
+}
+.card--services__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--services__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card--how {
+  grid-area: e;
+}
+.card--how__front {
+  background-color: #bb3e03;
+}
+.card--how__back {
+  background-color: #ca6702;
+}
+.card--how__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--how__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card:hover .card__content {
+  transform: rotateY(0.5turn);
+}
+.card__content {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  color: #fff;
+}
+.card__front, .card__back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card__back {
+  transform: rotateY(0.5turn);
+  padding: 2rem 1.5rem;
+}
+.card__title--front {
+  transform: translateZ(8rem);
+  font-size: 2.5rem;
+}
+.card__title--back {
+  transform: translateZ(8rem);
+}
+.card__body {
+  transform: translateZ(4rem);
+}
+.card__button {
+  transform: translateZ(6rem);
+}
 .navigation {
   min-height: 8vh;
 }
@@ -109,35 +254,14 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: 1fr 0.9fr 1.1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   grid-template-areas: "a a c c" "b b b b" "d d e e";
-}
-.hero-container .card {
-  background-color: #fff;
-}
-.hero-container .card__about {
-  grid-area: a;
-  background-color: #ee9b00;
-}
-.hero-container .card__projects {
-  grid-area: b;
-  background-color: #b7094c;
-}
-.hero-container .card__contact {
-  grid-area: c;
-  background-color: #0a9396;
-}
-.hero-container .card__services {
-  grid-area: d;
-  background-color: #001219;
-}
-.hero-container .card__how-it-works {
-  grid-area: e;
-  background-color: #bb3e03;
 }
 
 @media (min-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+
   header {
     background-color: purple;
   }
@@ -148,6 +272,10 @@ button {
   }
 }
 @media (min-width: 1000px) {
+  html {
+    font-size: 85%;
+  }
+
   header {
     background-color: yellow;
   }
