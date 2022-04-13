@@ -1,6 +1,6 @@
 @use "../abstracts" as *;
 
-.card {
+.card  {
   &--about {
     grid-area: a;
   }
@@ -29,7 +29,7 @@
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
-    color: white;
+    color: #fff;
   }
   &__front,
   &__back {
@@ -42,8 +42,8 @@
     transform-style: preserve-3d;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   &__front {
     background-color: $gamboge;
@@ -51,20 +51,27 @@
   &__back {
     transform: rotateY(.5turn);
     background-color: $alloy-orange;
+    padding: 2rem 1.5rem;
   }
   &__title {
     &--front {
-      transform: $level-three;
+      transform: $level-four;
+      font-size: 2.5rem;
     }
     &--back {
-      transform: $level-two;
-      
+      transform: $level-three;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1.8rem;
     }
   }
   &__body {
-    transform: $level-one;
+    transform: $level-two;
+    font-size: 1.1rem;
+    margin-bottom: 3.7rem;
   }
   &__button {
+    transform: $level-three;
     &--projects {
     }
   }
