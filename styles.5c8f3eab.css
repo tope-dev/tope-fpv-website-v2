@@ -91,6 +91,10 @@ h4 {
   font-size: 1.6rem;
 }
 
+h5 {
+  font-size: 1.2rem;
+}
+
 p {
   font-size: 1.2rem;
 }
@@ -112,6 +116,7 @@ button:hover {
 
 .card {
   margin: -0.1px;
+  overflow: hidden;
 }
 .card--about {
   grid-area: a;
@@ -156,16 +161,18 @@ button:hover {
   background-color: #0a9396;
 }
 .card--contact__back {
-  background-color: #ca6702;
+  background-color: #005f73;
 }
 .card--contact__title {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 1.8rem;
 }
 .card--contact__body {
   font-size: 1.1rem;
-  margin-bottom: 3.7rem;
+  margin-bottom: 1.2rem;
+}
+.card--contact__body span {
+  font-weight: 600;
 }
 .card--services {
   grid-area: d;
@@ -243,7 +250,22 @@ button:hover {
 }
 .card__button {
   transform: translateZ(6rem);
+  margin-bottom: 0.5rem;
 }
+.card__icons {
+  transform: translateZ(4rem);
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 6rem;
+}
+.card__icons img {
+  width: 2.5rem;
+  transition: ease-in-out 0.2s;
+}
+.card__icons img:hover {
+  transform: scale(1.4);
+}
+
 .navigation {
   min-height: 8vh;
 }
@@ -258,10 +280,6 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 70%;
-  }
-
   header {
     background-color: purple;
   }
@@ -272,10 +290,6 @@ button:hover {
   }
 }
 @media (min-width: 1000px) {
-  html {
-    font-size: 85%;
-  }
-
   header {
     background-color: yellow;
   }
