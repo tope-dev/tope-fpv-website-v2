@@ -118,101 +118,6 @@ button:hover {
   margin: -0.1px;
   overflow: hidden;
 }
-.card--about {
-  grid-area: a;
-}
-.card--about__front {
-  background-color: #ee9b00;
-}
-.card--about__back {
-  background-color: #ca6702;
-}
-.card--about__title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-bottom: 1.8rem;
-}
-.card--about__body {
-  font-size: 1.1rem;
-  margin-bottom: 3.7rem;
-}
-.card--projects {
-  grid-area: b;
-}
-.card--projects__front {
-  background-color: #b7094c;
-}
-.card--projects__back {
-  background-color: #ca6702;
-}
-.card--projects__title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-bottom: 1.8rem;
-}
-.card--projects__body {
-  font-size: 1.1rem;
-  margin-bottom: 3.7rem;
-}
-.card--contact {
-  grid-area: c;
-}
-.card--contact__front {
-  background-color: #0a9396;
-}
-.card--contact__back {
-  background-color: #005f73;
-}
-.card--contact__title {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-.card--contact__body {
-  font-size: 1.1rem;
-  margin-bottom: 1.2rem;
-}
-.card--contact__body span {
-  font-weight: 600;
-}
-.card--services {
-  grid-area: d;
-}
-.card--services__front {
-  background-color: #001219;
-}
-.card--services__back {
-  background-color: #ca6702;
-}
-.card--services__title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-bottom: 1.8rem;
-}
-.card--services__body {
-  font-size: 1.1rem;
-  margin-bottom: 3.7rem;
-}
-.card--how {
-  grid-area: e;
-}
-.card--how__front {
-  background-color: #bb3e03;
-}
-.card--how__back {
-  background-color: #ca6702;
-}
-.card--how__title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-bottom: 1.8rem;
-}
-.card--how__body {
-  font-size: 1.1rem;
-  margin-bottom: 3.7rem;
-}
-.card:hover .card__content {
-  transform: rotateY(0.5turn);
-}
 .card__content {
   height: 100%;
   text-align: center;
@@ -220,6 +125,9 @@ button:hover {
   transition: transform 1s;
   transform-style: preserve-3d;
   color: #fff;
+}
+.card:hover .card__content {
+  transform: rotateY(0.5turn);
 }
 .card__front, .card__back {
   position: absolute;
@@ -264,6 +172,116 @@ button:hover {
 }
 .card__icons img:hover {
   transform: scale(1.4);
+}
+.card--about {
+  grid-area: a;
+}
+.card--about__front {
+  background-color: #ee9b00;
+}
+.card--about__back {
+  background-color: #ca6702;
+}
+.card--about__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--about__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card--projects {
+  grid-area: b;
+}
+.card--projects__front {
+  background-color: #b7094c;
+}
+.card--projects__back {
+  background-color: #dfdfdf;
+  color: black;
+}
+.card--projects__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--projects__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
+}
+.card--contact {
+  grid-area: c;
+}
+.card--contact__front {
+  background-color: #0a9396;
+}
+.card--contact__back {
+  background-color: #005f73;
+}
+.card--contact__title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.card--contact__body {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+.card--contact__body span {
+  font-weight: 600;
+}
+.card--services {
+  grid-area: d;
+}
+.card--services__front {
+  background-color: #001219;
+}
+.card--services__back {
+  background-color: #6200AC;
+  justify-content: flex-start;
+  padding-top: 1.2rem;
+}
+.card--services__title-wrap {
+  display: flex;
+  align-self: flex-start;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.card--services__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.card--services__body {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+  margin-left: 2.4rem;
+}
+.card--services__button {
+  position: absolute;
+  bottom: 5%;
+}
+.card--how {
+  grid-area: e;
+}
+.card--how__front {
+  background-color: #bb3e03;
+}
+.card--how__back {
+  background-color: #ca6702;
+}
+.card--how__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.card--how__body {
+  font-size: 1.1rem;
+  margin-bottom: 3.7rem;
 }
 
 .navigation {
