@@ -1,0 +1,51 @@
+@use "../abstracts" as *;
+
+.hero-container {
+  background-color: $gray;
+  min-height: 92vh;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: 1fr 0.9fr 1.1fr;
+  grid-template-areas:
+    "a a c c"
+    "b b b b"
+    "d d e e";
+}
+
+// Tablet Size
+@media (min-width: 768px) {
+  html {
+    // font-size: 90%;
+  }
+  header {
+    background-color: purple;
+  }
+  .hero-container {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 1fr 0.9fr 1.1fr;
+  }
+}
+
+// Desktop Size
+@media (min-width: 1000px) {
+  html {
+    // font-size: 85%;
+  }
+  header {
+    background-color: yellow;
+  }
+  .hero-container {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "a b b c"
+      "d d e e";
+  }
+}
+
+// Large 2560 Desktop Size
+@media (min-width: 2560px) {
+  header {
+    background-color: greenyellow;
+  }
+}

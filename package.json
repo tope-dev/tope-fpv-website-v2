@@ -1,0 +1,25 @@
+{
+  "name": "tope-fpv-website-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "(parcel src/index.html) & parcel watch ./src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tope-dev/tope-fpv-website-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tope-dev/tope-fpv-website-v2/issues"
+  },
+  "homepage": "https://github.com/tope-dev/tope-fpv-website-v2#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.50.0"
+  }
+}
