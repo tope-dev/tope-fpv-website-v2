@@ -2,4 +2,19 @@
 
 button {
   background-color: $white;
+  border: transparent solid 0px;
+  border-radius: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5em 1.2em;
+  transition:cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s;
+  &:hover {
+    background-color: $rich-black-fogra-29;
+    color: $white;
+    transform: scale(1.1);
+  }
+}
+
+.card--services button {
+  
 }

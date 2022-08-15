@@ -6,40 +6,17 @@
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: 1fr 0.9fr 1.1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   grid-template-areas:
     "a a c c"
     "b b b b"
     "d d e e";
-
-  .card {
-    background-color: #fff;
-  }
-  .about {
-    grid-area: a;
-    background-color: $gamboge;
-  }
-  .projects {
-    grid-area: b;
-    background-color: $amaranth_purple;
-  }
-  .contact {
-    grid-area: c;
-    background-color: $viridian-green;
-  }
-  .services {
-    grid-area: d;
-    background-color: $rich-black-fogra-29;
-  }
-  .how-it-works {
-    grid-area: e;
-    background-color: $rust;
-  }
 }
 
 // Tablet Size
 @media (min-width: 768px) {
+  html {
+    // font-size: 90%;
+  }
   header {
     background-color: purple;
   }
@@ -51,6 +28,9 @@
 
 // Desktop Size
 @media (min-width: 1000px) {
+  html {
+    // font-size: 85%;
+  }
   header {
     background-color: yellow;
   }
