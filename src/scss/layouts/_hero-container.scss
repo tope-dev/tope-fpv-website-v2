@@ -17,9 +17,6 @@
   html {
     // font-size: 90%;
   }
-  header {
-    background-color: purple;
-  }
   .hero-container {
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: 1fr 0.9fr 1.1fr;
@@ -30,9 +27,6 @@
 @media (min-width: 1000px) {
   html {
     // font-size: 85%;
-  }
-  header {
-    background-color: yellow;
   }
   .hero-container {
     grid-template-columns: repeat(4, 2fr);
