@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24.262" height="24.262" viewBox="0 0 24.262 24.262">
-  <g id="linkedin_logo" transform="translate(0)">
-    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="10.331" cy="9.997" rx="10.331" ry="9.997" transform="translate(1.803 2.132)" fill="#fff"/>
-    <g id="linkedin_logo-2" data-name="linkedin_logo" transform="translate(0 0)">
-      <path id="Path_8" data-name="Path 8" d="M270.73,213.863v-.025l-.017.025Z" transform="translate(-257.863 -203.763)"/>
-      <path id="Path_9" data-name="Path 9" d="M19.228,7.1A12.131,12.131,0,1,0,31.356,19.229,12.131,12.131,0,0,0,19.228,7.1ZM15.887,23.947H13.264V16.056h2.623Zm-1.311-8.968h-.018a1.367,1.367,0,1,1,.035-2.729,1.368,1.368,0,1,1-.017,2.727Zm10.772,8.968H22.724V19.725c0-1.061-.38-1.785-1.329-1.785a1.436,1.436,0,0,0-1.343.96,1.791,1.791,0,0,0-.087.64v4.4H17.338s.035-7.15,0-7.891h2.624v1.12a2.6,2.6,0,0,1,2.363-1.3c1.726,0,3.021,1.128,3.021,3.551v4.525Z" transform="translate(-7.094 -7.1)"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24.262" height="24.262" viewBox="0 0 24.262 24.262"><g id="linkedin_logo" transform="translate(0)"><ellipse id="Ellipse_9" cx="10.331" cy="9.997" fill="#fff" data-name="Ellipse 9" rx="10.331" ry="9.997" transform="translate(1.803 2.132)"/><g id="linkedin_logo-2" data-name="linkedin_logo" transform="translate(0 0)"><path id="Path_8" d="M270.73,213.863v-.025l-.017.025Z" data-name="Path 8" transform="translate(-257.863 -203.763)"/><path id="Path_9" d="M19.228,7.1A12.131,12.131,0,1,0,31.356,19.229,12.131,12.131,0,0,0,19.228,7.1ZM15.887,23.947H13.264V16.056h2.623Zm-1.311-8.968h-.018a1.367,1.367,0,1,1,.035-2.729,1.368,1.368,0,1,1-.017,2.727Zm10.772,8.968H22.724V19.725c0-1.061-.38-1.785-1.329-1.785a1.436,1.436,0,0,0-1.343.96,1.791,1.791,0,0,0-.087.64v4.4H17.338s.035-7.15,0-7.891h2.624v1.12a2.6,2.6,0,0,1,2.363-1.3c1.726,0,3.021,1.128,3.021,3.551v4.525Z" data-name="Path 9" transform="translate(-7.094 -7.1)"/></g></g></svg>
